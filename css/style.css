@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #1789acde;
+    background-image: url("../img/fondo.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.mainTitulo {
+    text-align: center;
+    text-shadow: 1px 1px 1px #050505;
+    color: #297383;
+    font-family: 'DynaPuff', cursive;
+    ;
+
+}
+
+.tarjetaPokemon {
+    background-color: #8bc5cdce;
+    border: 2px double #cd7b29c7;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Delicious Handrawn', cursive;
+
+
+}
+
+.boton {
+    color: #cd7b29;
+    background-color: #ffe69c;
+    margin-bottom: 2%;
+    padding: 2px;
+}
+
+.boton:hover {
+    border-color: #297383;
+}
+
+.botonCar {
+    color: #bd6a00;
+    background-color: #d5cdcda8;
+    margin: 2%;
+    padding: 20px;
+    border-radius: 5px;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    z-index: 1;
+}
+
+.botonCar:hover {
+    color: #297383;
+    background-color: #e6ac5a;
+    transform: translateY(-15px);
+    
+
+}
+
+#chango {
+    width: auto;
+    background-color: #ffe69c;
+    height: 200px;
+    overflow:auto;
+    
+}
