@@ -1,6 +1,6 @@
 
 let carroMuestra = document.getElementById("chango")
-let chango = JSON.parse(localStorage.getItem("chango")) || []
+let chango = []
 
 
 fetch("./pokemon.json")
@@ -131,7 +131,7 @@ function agregarAlCarro(e, pokemon) {
     }
 
 
-    function finalizarCompra(pokemon) {
+    function finalizarCompra() {
 
         localStorage.removeItem("chango");
         chango = [];
